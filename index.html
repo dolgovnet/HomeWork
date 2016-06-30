@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button</title>
+    <link rel="stylesheet" href="main_1.css">
+</head>
+<body>
+   <input type='button' value='Нажми на кнопку и получи красный фон' onclick='color("red")'> 
+   
+   <a href="#" class="button_1" onclick="color('green')">Нажми на кнопку и получи зелёный фон</a>
+         
+    <button type="button" onclick="alert(location)">Получить URL через alert</button>
+    
+    <button id="demo2" type="button" onclick="myFunction()">Нажми на меня и измени текст кнопки</button>
+    
+    <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Нажми на кнопку и получи текущее время.</button>
+<p id="demo"></p>
+    
+    <script src="button_1.js"></script>
+    <script src="button_2.js"></script>       
+</body>
+</html>
